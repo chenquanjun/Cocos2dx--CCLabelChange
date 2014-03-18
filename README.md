@@ -1,5 +1,3 @@
-CCLabelChange inherit CCActionInterval
-----------------
 use it just like other action.
 
 but it is only used for label
