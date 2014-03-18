@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A122B2818911D610096CF4C /* num.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A122B2718911D610096CF4C /* num.png */; };
 		8A13F07A1890F262009C02F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13F0791890F262009C02F7 /* QuartzCore.framework */; };
 		8A13F07C1890F262009C02F7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13F07B1890F262009C02F7 /* OpenGLES.framework */; };
 		8A13F07E1890F262009C02F7 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13F07D1890F262009C02F7 /* OpenAL.framework */; };
@@ -280,9 +281,11 @@
 		8A13F4171890F266009C02F7 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A13F4161890F266009C02F7 /* libwebsockets.a */; };
 		8A13F41D1890F266009C02F7 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A13F41C1890F266009C02F7 /* AppDelegate.cpp */; };
 		8A13F4201890F266009C02F7 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A13F41F1890F266009C02F7 /* HelloWorldScene.cpp */; };
+		8A13F4281890F2CA009C02F7 /* CCLabelChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A13F4261890F2CA009C02F7 /* CCLabelChange.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A122B2718911D610096CF4C /* num.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num.png; path = Resources/num.png; sourceTree = "<group>"; };
 		8A13F0761890F262009C02F7 /* testLabelChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLabelChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A13F0791890F262009C02F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8A13F07B1890F262009C02F7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -873,6 +876,8 @@
 		8A13F41C1890F266009C02F7 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		8A13F41E1890F266009C02F7 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		8A13F41F1890F266009C02F7 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		8A13F4261890F2CA009C02F7 /* CCLabelChange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLabelChange.cpp; sourceTree = "<group>"; };
+		8A13F4271890F2CA009C02F7 /* CCLabelChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLabelChange.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +949,7 @@
 		8A13F08A1890F262009C02F7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8A122B2718911D610096CF4C /* num.png */,
 				8A13F08B1890F262009C02F7 /* CloseNormal.png */,
 				8A13F08D1890F262009C02F7 /* CloseSelected.png */,
 				8A13F08F1890F262009C02F7 /* Default.png */,
@@ -2097,6 +2103,8 @@
 				8A13F41C1890F266009C02F7 /* AppDelegate.cpp */,
 				8A13F41E1890F266009C02F7 /* HelloWorldScene.h */,
 				8A13F41F1890F266009C02F7 /* HelloWorldScene.cpp */,
+				8A13F4261890F2CA009C02F7 /* CCLabelChange.cpp */,
+				8A13F4271890F2CA009C02F7 /* CCLabelChange.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2159,6 +2167,7 @@
 				8A13F0921890F262009C02F7 /* HelloWorld.png in Resources */,
 				8A13F0961890F262009C02F7 /* Icon-Small-50.png in Resources */,
 				8A13F0A01890F262009C02F7 /* iTunesArtwork in Resources */,
+				8A122B2818911D610096CF4C /* num.png in Resources */,
 				8A13F09A1890F262009C02F7 /* Icon-Small@2x.png in Resources */,
 				8A13F0901890F262009C02F7 /* Default.png in Resources */,
 				8A13F08E1890F262009C02F7 /* CloseSelected.png in Resources */,
@@ -2306,6 +2315,7 @@
 				8A13F3E91890F266009C02F7 /* cpRotaryLimitJoint.c in Sources */,
 				8A13F2CC1890F265009C02F7 /* CCBSequenceProperty.cpp in Sources */,
 				8A13F14B1890F263009C02F7 /* neon_matrix_impl.c in Sources */,
+				8A13F4281890F2CA009C02F7 /* CCLabelChange.cpp in Sources */,
 				8A13F3F31890F266009C02F7 /* cpBB.c in Sources */,
 				8A13F3571890F266009C02F7 /* CCTableView.cpp in Sources */,
 				8A13F2251890F264009C02F7 /* CCSpriteFrame.cpp in Sources */,
@@ -2564,6 +2574,7 @@
 				8A13F4251890F266009C02F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
