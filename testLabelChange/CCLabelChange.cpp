@@ -84,7 +84,9 @@ void CCLabelChange::update(float t)
     CCLabelProtocol *pLabel = dynamic_cast<CCLabelProtocol*>(m_pTarget);
     if (pLabel)
     {
-        int num = m_nFromNum + (m_nToNum - m_nFromNum) * t;
+        //fix bug
+        int tempNum = (m_nToNum - m_nFromNum) * t;
+        int num = m_nFromNum + tempNum;
         CCString *numStr = CCString::createWithFormat("%i", num);
         pLabel->setString(numStr->getCString());
     }
@@ -172,7 +174,8 @@ void CCHPLabelChange::update(float t)
     CCLabelProtocol *pLabel = dynamic_cast<CCLabelProtocol*>(m_pTarget);
     if (pLabel)
     {
-        int num = m_nFromNum + (m_nToNum - m_nFromNum) * t;
+        int tempNum = (m_nToNum - m_nFromNum) * t;
+        int num = m_nFromNum + tempNum;
         CCString *numStr = CCString::createWithFormat("%i / %i", num, m_nFullHp);
         pLabel->setString(numStr->getCString());
     }
