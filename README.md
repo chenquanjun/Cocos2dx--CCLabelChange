@@ -1,11 +1,11 @@
 CCLabelChange inherit CCActionInterval
-
+----------------
 use it just like other action.
 
 but it is only used for label
-----------------
-class CCLabelChange / CCHPLabelChange
 
+class CCLabelChange / CCHPLabelChange
+----------------
 use for label num change.  like from 1 to 100.
 
 support label class.
